@@ -1,0 +1,127 @@
+export default function Home() {
+    return (
+        <div>
+            <header className="bg-gray-900 text-white py-12 text-center">
+                <h1 className="text-4xl font-bold">Seigo Kitamura</h1>
+                <p className="mt-2 text-lg opacity-80">Software Engineer (Java / Spring Boot / Angular / AWS)</p>
+            </header>
+
+            <main className="max-w-4xl mx-auto px-6 py-10 space-y-16">
+                {/* About Me */}
+                <section>
+                    <h2 className="text-2xl font-semibold border-b pb-2 mb-4">About Me</h2>
+                    <p className="leading-relaxed">
+                        I am a software engineer with experience in backend and frontend development, specializing in Java, Spring Boot,
+                        Angular, and AWS. I have contributed to multiple enterprise-scale aviation projects including system renewals,
+                        platform modernization, and operational maintenance. I focus on delivering reliable systems, collaborating with
+                        offshore teams, and writing maintainable, high-quality code.
+                    </p>
+                </section>
+
+                {/* Professional Experience */}
+                <section>
+                    <h2 className="text-2xl font-semibold border-b pb-2 mb-4">Professional Experience</h2>
+
+                    <div className="space-y-10">
+                        <div>
+                            <h3 className="text-xl font-bold">Avanade — Senior Analyst / Software Engineer</h3>
+                            <p className="text-sm text-gray-600">Dec 2025 – Present</p>
+                            <ul className="list-disc ml-6 mt-2 space-y-1">
+                                <li>Focused on software engineering and cloud-based system development.</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h3 className="text-xl font-bold">Tata Consultancy Services Japan — Software Engineer</h3>
+                            <p className="text-sm text-gray-600">Apr 2022 – Nov 2025</p>
+                        </div>
+
+                        <div>
+                            <h4 className="text-lg font-semibold">Backend Engineer, Aviation Platform Modernization</h4>
+                            <p className="text-sm text-gray-600">Nov 2024 – Nov 2025</p>
+                            <ul className="list-disc ml-6 mt-2 space-y-1">
+                                <li>Developed backend APIs with Spring Boot for corporate customer web platform.</li>
+                                <li>Implemented login flows, SSO, member management, card operations, and batch processing.</li>
+                                <li>Deployed services using AWS ECS Fargate, API Gateway, Lambda, EventBridge, CloudWatch.</li>
+                                <li>Worked closely with offshore teams; served as interpreter in meetings.</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h4 className="text-lg font-semibold">Frontend Engineer, Flight Reservation Web App</h4>
+                            <p className="text-sm text-gray-600">Jun 2024 – Oct 2024</p>
+                            <ul className="list-disc ml-6 mt-2 space-y-1">
+                                <li>Implemented requirement changes and fixed bugs using Angular.</li>
+                                <li>Managed tasks with Jira and deployed via Bitbucket pipelines.</li>
+                                <li>Participated in release operations and production deployment.</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h4 className="text-lg font-semibold">Frontend Engineer, Mileage System Renewal</h4>
+                            <p className="text-sm text-gray-600">Sep 2022 – May 2024</p>
+                            <ul className="list-disc ml-6 mt-2 space-y-1">
+                                <li>Implemented Angular features for a mileage management renewal project.</li>
+                                <li>Deployed application using AWS S3 and managed tasks via Redmine.</li>
+                                <li>Assigned to India for six months to collaborate with offshore members.</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h4 className="text-lg font-semibold">New Graduate Training</h4>
+                            <p className="text-sm text-gray-600">Apr 2022 – Aug 2022</p>
+                            <ul className="list-disc ml-6 mt-2 space-y-1">
+                                <li>Completed foundational training in Java, networking, and business communication.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                {/* Key Projects */}
+                <section>
+                    <h2 className="text-2xl font-semibold border-b pb-2 mb-4">Key Projects</h2>
+                    <ul className="list-disc ml-6 space-y-4">
+                        <li>
+                            <strong>Corporate Customer Platform Modernization (Backend)</strong><br />
+                            Spring Boot API development, authentication flows, batch operations, AWS ECS/Lambda/EventBridge deployment.
+                        </li>
+                        <li>
+                            <strong>Flight Reservation Operation (Frontend)</strong><br />
+                            Angular-based feature implementation, bug resolution, CI/CD with Bitbucket pipelines.
+                        </li>
+                        <li>
+                            <strong>Mileage System Renewal (Frontend)</strong><br />
+                            Angular implementation, AWS S3 hosting, six-month offshore collaboration in India.
+                        </li>
+                    </ul>
+                </section>
+
+                {/* Skills */}
+                <section>
+                    <h2 className="text-2xl font-semibold border-b pb-2 mb-4">Skills</h2>
+                    <ul className="list-disc ml-6 space-y-2">
+                        <li><strong>Languages:</strong> Java, TypeScript, SQL</li>
+                        <li><strong>Frameworks:</strong> Spring Boot, Angular</li>
+                        <li><strong>Cloud:</strong> AWS (ECS Fargate, Lambda, API Gateway, EventBridge, S3, CloudWatch)</li>
+                        <li><strong>Tools:</strong> Docker, Jira, Bitbucket, GitHub, Jenkins</li>
+                        <li><strong>Other:</strong> Offshore collaboration, bilingual communication</li>
+                    </ul>
+                </section>
+
+                {/* Contact */}
+                <section>
+                    <h2 className="text-2xl font-semibold border-b pb-2 mb-4">Contact</h2>
+                    <p className="leading-relaxed">
+                        GitHub: <a className="text-blue-600 underline" href="https://github.com/k5tar" target="_blank">github.com/k5tar</a><br />
+                        LinkedIn: <a className="text-blue-600 underline" href="https://www.linkedin.com/in/seigo-kitamura/" target="_blank">linkedin.com/in/seigo-kitamura</a><br />
+                        Email: k5tar4biz@gmail.com
+                    </p>
+                </section>
+            </main>
+
+            <footer className="text-center py-10 text-sm text-gray-500">
+                © 2025 Seigo Kitamura
+            </footer>
+        </div>
+    );
+}
