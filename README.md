@@ -46,10 +46,10 @@ Since Next.js 14 removed next export,
 static export is automatically performed during the build when using:
 ```bash
 npm run build
-npm run export - Not required
 ```
 
 This generates a `out/` directory.
+The generated `out/` directory is synced into the gh-pages branch.
 
 ## 🌐 Deploy to GitHub Pages
 Commit and push your changes.  
